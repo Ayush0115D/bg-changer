@@ -1,8 +1,7 @@
 import { useState } from "react"
 
-
 function App() {
-  const [color,setColor]=useState("skyblue");
+  const [color,setColor]=useState("black");
 
   return (
   
@@ -39,6 +38,10 @@ style={{backgroundColor:color}}
           <button   onClick={()=>setColor("grey")}
           className="outline-none px-4 py-1 rounded-full  text-white  shadow-lg "
           style={{backgroundColor:"grey"}}>grey
+          </button>
+           <button   onClick={()=>setColor("skyblue")}
+          className="outline-none px-4 py-1 rounded-full  text-white  shadow-lg "
+          style={{backgroundColor:"skyblue"}}>skyblue
           </button>
         </div>
       </div>
