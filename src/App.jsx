@@ -2,7 +2,7 @@ import { useState } from "react"
 
 
 function App() {
-  const [color,setColor]=useState("skyblueq");
+  const [color,setColor]=useState("skyblue");
 
   return (
   
