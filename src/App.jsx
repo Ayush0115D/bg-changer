@@ -16,32 +16,32 @@ style={{backgroundColor:color}}
           <button 
   //  onClick={setColor("red")} //parameter pass krna pdega bcoz syntax he esa he..func ko bs pass krke kaam na chlega
   // toh better option callback he lelo
-  onClick={()=>setColor("red")}
+  onClick={()=>setColor("DarkRed")}
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg "
-          style={{backgroundColor:"red"}}>Red
+          style={{backgroundColor:"DarkRed"}}>Red
           </button>
           <button
-            onClick={()=>setColor("blue")}
+            onClick={()=>setColor("DarkBlue")}
           className="outline-none px-4 py-1 rounded-full  text-white  shadow-lg "
-          style={{backgroundColor:"blue"}}>blue
+          style={{backgroundColor:"DarkBlue"}}>Blue
           </button>
           <button 
             onClick={()=>setColor("green")}
           className="outline-none px-4 py-1 rounded-full  text-white  shadow-lg "
-          style={{backgroundColor:"green"}}>green
+          style={{backgroundColor:"green"}}>Green
           </button>
           <button
             onClick={()=>setColor("brown")}
           className="outline-none px-4 py-1 rounded-full  text-white  shadow-lg "
-          style={{backgroundColor:"brown"}}>brown
+          style={{backgroundColor:"brown"}}>Brown
           </button>
           <button   onClick={()=>setColor("grey")}
           className="outline-none px-4 py-1 rounded-full  text-white  shadow-lg "
-          style={{backgroundColor:"grey"}}>grey
+          style={{backgroundColor:"grey"}}>Grey
           </button>
            <button   onClick={()=>setColor("skyblue")}
           className="outline-none px-4 py-1 rounded-full  text-white  shadow-lg "
-          style={{backgroundColor:"skyblue"}}>skyblue
+          style={{backgroundColor:"skyblue"}}>Skyblue
           </button>
         </div>
       </div>
